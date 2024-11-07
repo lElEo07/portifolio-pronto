@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 150vh;
+    /* background-color: #031b0e; */
+    background-image: linear-gradient(-100deg, #031b0e 0%, #031b0e 60%, #11ff4c 100%);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.rocha {
+    color: #11FF4C;
+    margin-left: 1.5%;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 23px;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top: 0;
+
+}
+
+#logo {
+    margin-left: 50px;
+
+}
+
+#inicio a {
+    color: #00FB0A;
+}
+
+#inicio {
+    transition: .4s;
+}
+
+#sobre {
+    transition: .4s;
+}
+
+#experiencias {
+    transition: .4s;
+}
+
+#projetos {
+    transition: .4s;
+}
+
+#contato {
+    transition: .4s;
+}
+
+
+
+
+#inicio:hover {
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+#sobre:hover {
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+#experiencias:hover {
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+#projetos:hover {
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+#contato:hover {
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+
+
+#contato {
+
+    margin-left: 33px;
+}
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+#barra-inicio {
+    display: flex;
+    gap: 80px;
+    padding-left: 70px;
+    margin-left: 400px;
+}
+
+#contato-dark {
+    display: flex;
+    gap: 80px;
+    margin-left: 300px;
+}
+
+#logo {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#fala-comigo{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.comigo{
+    color: #00FB0A ;
+}
+
+#input-nome{
+    background-color: #122717;
+    border-radius: 10px;
+    margin: 5px;
+    width: 25%;
+    height: 40px;
+    
+}
+
+#form-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+
+}
+
+#input-nomes{
+    background-color: #122717;
+    border-radius: 10px;
+    margin: 5px;
+    width: 25%;
+    height: 120px;  
+    display: flex;
+   
+}
+
+#curriculo {
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    background-color: #09ee2fd2;
+    transition: .3s ease;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#curriculo:hover {
+    border: 1px solid #06ff44;
+    background-color: transparent;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
